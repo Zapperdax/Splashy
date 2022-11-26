@@ -1,10 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style={{ fontSize: 25, color: "#A90000" }}>Cozy Cats App</Text>
+      <Text style={{ fontSize: 30, color: "white" }}>
+        Maria Rauf (19-ARID-811)
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +16,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#3E239D",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
